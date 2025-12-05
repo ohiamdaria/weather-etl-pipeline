@@ -1,0 +1,5 @@
+,city,extracted_at,weather_description,main_temp,main_feels_like,main_pressure,wind_speed
+0,Moscow,2025-12-01T22:25:17.821613,overcast clouds,0.4,-2.76,1025,2.72
+1,Saint Petersburg,2025-12-01T22:25:18.117768,overcast clouds,3.36,-0.71,1013,5.0
+2,Novosibirsk,2025-12-01T22:25:18.375101,light snow,-2.39,-8.99,1023,7.0
+3,Kazan,2025-12-01T22:25:18.635494,overcast clouds,1.34,-0.65,1030,1.8

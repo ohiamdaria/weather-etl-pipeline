@@ -1,17 +1,13 @@
-version: '3.8'
-services:
+services: 
   postgres:
     image: postgres:15
     environment:
-      POSTGRES_DB: weather_db
-      POSTGRES_USER: weather_user
+      POSTGRES_DB: weather_db 
       POSTGRES_PASSWORD: weather_pass
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
-    restart: unless-stopped
-
+    restart: unless-stopped 
 volumes:
-  postgres_data:
-
+  postgres_data: 

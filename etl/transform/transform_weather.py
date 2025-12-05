@@ -7,9 +7,10 @@ def transform_weather(data):
 	data['weather_description'] = data['weather'].apply(
         lambda x: x[0]['description'] if isinstance(x, list) and len(x) > 0 else None
     )
-	useful_columns = ['city', 'extracted_at', 'timezone', 'weather_description', 'main.temp', 'main.feels_like', 'main.pressure', 'wind.speed', 'sys.sunrise', 'sys.sunset']
+	useful_columns = ['city', 'extracted_at', 'weather_description', 'main.temp', 'main.feels_like', 'main.pressure', 'wind.speed']
 
 	data = data[useful_columns]
+	data.columns = useful_columns = ['city', 'extracted_at', 'weather_description', 'main_temp', 'main_feels_like', 'main_pressure', 'wind_speed']
 	data = data.drop_duplicates()
 	print(f"Количество явных дубликатов: {data.duplicated().sum()} ")
 	data = data.dropna()
@@ -21,5 +22,5 @@ if __name__ == "__main__":
 		raw_data = json.load(f)
 	data = pd.json_normalize(raw_data)
 	data = transform_weather(data)
-	data.to_csv("transform_weather")
+	data.to_csv("transform_weather.csv")
 
