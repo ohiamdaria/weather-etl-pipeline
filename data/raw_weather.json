@@ -14,38 +14,38 @@
     ],
     "base": "stations",
     "main": {
-      "temp": 0.4,
-      "feels_like": -2.76,
-      "temp_min": -0.71,
-      "temp_max": 0.77,
-      "pressure": 1025,
-      "humidity": 58,
-      "sea_level": 1025,
-      "grnd_level": 1005
+      "temp": 2.24,
+      "feels_like": 0.33,
+      "temp_min": 2.24,
+      "temp_max": 2.29,
+      "pressure": 1030,
+      "humidity": 91,
+      "sea_level": 1030,
+      "grnd_level": 1010
     },
     "visibility": 10000,
     "wind": {
-      "speed": 2.72,
-      "deg": 173,
-      "gust": 7.92
+      "speed": 1.85,
+      "deg": 230,
+      "gust": 3.41
     },
     "clouds": {
-      "all": 100
+      "all": 94
     },
-    "dt": 1764616714,
+    "dt": 1764965890,
     "sys": {
-      "type": 2,
-      "id": 2095214,
+      "type": 1,
+      "id": 9027,
       "country": "RU",
-      "sunrise": 1764567300,
-      "sunset": 1764594151
+      "sunrise": 1764913274,
+      "sunset": 1764939565
     },
     "timezone": 10800,
     "id": 524901,
     "name": "Moscow",
     "cod": 200,
     "city": "Moscow",
-    "extracted_at": "2025-12-01T22:25:17.821613"
+    "extracted_at": "2025-12-05T23:24:46.183673"
   },
   {
     "coord": {
@@ -54,45 +54,51 @@
     },
     "weather": [
       {
-        "id": 804,
-        "main": "Clouds",
-        "description": "overcast clouds",
-        "icon": "04n"
+        "id": 741,
+        "main": "Fog",
+        "description": "fog",
+        "icon": "50n"
+      },
+      {
+        "id": 701,
+        "main": "Mist",
+        "description": "mist",
+        "icon": "50n"
       }
     ],
     "base": "stations",
     "main": {
-      "temp": 3.36,
-      "feels_like": -0.71,
-      "temp_min": 3.08,
-      "temp_max": 3.36,
-      "pressure": 1013,
-      "humidity": 93,
-      "sea_level": 1013,
-      "grnd_level": 1012
+      "temp": 2.25,
+      "feels_like": 0.16,
+      "temp_min": 1.08,
+      "temp_max": 2.25,
+      "pressure": 1023,
+      "humidity": 94,
+      "sea_level": 1023,
+      "grnd_level": 1022
     },
-    "visibility": 10000,
+    "visibility": 3500,
     "wind": {
-      "speed": 5,
-      "deg": 220
+      "speed": 2,
+      "deg": 130
     },
     "clouds": {
-      "all": 100
+      "all": 75
     },
-    "dt": 1764617049,
+    "dt": 1764966189,
     "sys": {
       "type": 2,
       "id": 2045711,
       "country": "RU",
-      "sunrise": 1764570788,
-      "sunset": 1764594192
+      "sunrise": 1764916845,
+      "sunset": 1764939523
     },
     "timezone": 10800,
     "id": 498817,
     "name": "Saint Petersburg",
     "cod": 200,
     "city": "Saint Petersburg",
-    "extracted_at": "2025-12-01T22:25:18.117768"
+    "extracted_at": "2025-12-05T23:24:53.237503"
   },
   {
     "coord": {
@@ -101,48 +107,45 @@
     },
     "weather": [
       {
-        "id": 600,
-        "main": "Snow",
-        "description": "light snow",
-        "icon": "13n"
+        "id": 801,
+        "main": "Clouds",
+        "description": "few clouds",
+        "icon": "02n"
       }
     ],
     "base": "stations",
     "main": {
-      "temp": -2.39,
-      "feels_like": -8.99,
-      "temp_min": -2.39,
-      "temp_max": -2.39,
-      "pressure": 1023,
-      "humidity": 93,
-      "sea_level": 1023,
-      "grnd_level": 1002
+      "temp": -15.39,
+      "feels_like": -22.39,
+      "temp_min": -15.39,
+      "temp_max": -15.39,
+      "pressure": 1029,
+      "humidity": 78,
+      "sea_level": 1029,
+      "grnd_level": 1006
     },
-    "visibility": 8000,
+    "visibility": 10000,
     "wind": {
-      "speed": 7,
-      "deg": 210
-    },
-    "snow": {
-      "1h": 0.3
+      "speed": 5,
+      "deg": 290
     },
     "clouds": {
-      "all": 100
+      "all": 20
     },
-    "dt": 1764616860,
+    "dt": 1764965922,
     "sys": {
       "type": 1,
       "id": 8958,
       "country": "RU",
-      "sunrise": 1764642660,
-      "sunset": 1764669877
+      "sunrise": 1764988614,
+      "sunset": 1765015314
     },
     "timezone": 25200,
     "id": 1496747,
     "name": "Novosibirsk",
     "cod": 200,
     "city": "Novosibirsk",
-    "extracted_at": "2025-12-01T22:25:18.375101"
+    "extracted_at": "2025-12-05T23:24:55.872587"
   },
   {
     "coord": {
@@ -159,37 +162,37 @@
     ],
     "base": "stations",
     "main": {
-      "temp": 1.34,
-      "feels_like": -0.65,
-      "temp_min": 1.34,
-      "temp_max": 1.34,
+      "temp": 0.34,
+      "feels_like": -1.12,
+      "temp_min": 0.34,
+      "temp_max": 0.34,
       "pressure": 1030,
       "humidity": 92,
       "sea_level": 1030,
-      "grnd_level": 1015
+      "grnd_level": 1016
     },
     "visibility": 10000,
     "wind": {
-      "speed": 1.8,
-      "deg": 164,
-      "gust": 2.51
+      "speed": 1.35,
+      "deg": 224,
+      "gust": 1.64
     },
     "clouds": {
       "all": 100
     },
-    "dt": 1764617018,
+    "dt": 1764965576,
     "sys": {
       "type": 1,
       "id": 9038,
       "country": "RU",
-      "sunrise": 1764564548,
-      "sunset": 1764591378
+      "sunrise": 1764910523,
+      "sunset": 1764936791
     },
     "timezone": 10800,
     "id": 551487,
     "name": "Kazan\u2019",
     "cod": 200,
     "city": "Kazan",
-    "extracted_at": "2025-12-01T22:25:18.635494"
+    "extracted_at": "2025-12-05T23:24:56.834568"
   }
 ]
