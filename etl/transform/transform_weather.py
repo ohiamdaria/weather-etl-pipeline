@@ -10,7 +10,7 @@ def transform_weather(data):
 	useful_columns = ['city', 'extracted_at', 'weather_description', 'main.temp', 'main.feels_like', 'main.pressure', 'wind.speed', 'sys.sunrise', 'sys.sunset']
 
 	data = data[useful_columns]
-	data.columns = useful_columns = ['city', 'extracted_at', 'weather_description', 'main_temp', 'main_feels_like', 'main_pressure', 'wind_speed', 'sys_sunrise', 'sys_sunset']
+	data.columns = useful_columns = ['city', 'extracted_at', 'weather_description', 'main_temp', 'main_feels_like', 'main_pressure', 'wind_speed', 'sunrise', 'sunset']
 	data = data.drop_duplicates()
 	print(f"Количество явных дубликатов: {data.duplicated().sum()} ")
 	data = data.dropna()

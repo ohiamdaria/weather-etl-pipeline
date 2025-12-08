@@ -25,6 +25,7 @@ if __name__ == "__main__":
 	result = extract_weather(API_KEY, cities)
 	if result == 0:
 		print("Something went wrong")
+		
 
 
 

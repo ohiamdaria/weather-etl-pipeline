@@ -11,7 +11,7 @@ def load_weather(data, engine):
     result = conn.execute(text("SELECT 1"))
     count = result.fetchone()[0]
     print(f"Table has {count} strings")
-  return 0
+  return 1 if count > 0 else 0
 
 
 if __name__ == '__main__':
@@ -20,3 +20,4 @@ if __name__ == '__main__':
   engine = create_engine(connection_string)
 
   load_weather(data, engine)
+  
