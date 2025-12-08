@@ -1,4 +1,11 @@
 import os
+from extract.extract_weather import extract_weather
 
 if __name__ == '__main__':
-  0
+  API_KEY = "ade6c6ea1ce75ee42984e411e93bf8f1"
+  cities = ["Moscow", "Saint Petersburg", "Novosibirsk", "Kazan"]
+  result_extract = extract_weather(API_KEY, cities)
+  if result_extract == 1:
+    print("Extract completed OK")
+  else:
+    print("Something went wrong")

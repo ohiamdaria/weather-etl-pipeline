@@ -14,14 +14,17 @@ def extract_weather(api_key, cities):
 			weather['city'] = city
 			weather['extracted_at'] = datetime.now().isoformat()
 			data.append(weather)
-	return data
+			with open("../data/raw_weather.json", "w") as f:
+				json.dump(data, f, indent=2)
+			print(f"Extracted data for {len(data)} cities")
+	return 1 if len(data) > 0 else 0 
 
 if __name__ == "__main__":
 	API_KEY = "ade6c6ea1ce75ee42984e411e93bf8f1"
 	cities = ["Moscow", "Saint Petersburg", "Novosibirsk", "Kazan"]
-	data = extract_weather(API_KEY, cities)
-	with open("../../data/raw_weather.json", "w") as f:
-		json.dump(data, f, indent=2)
-	print(f"Extracted data for {len(data)} cities")
- 
+	result = extract_weather(API_KEY, cities)
+	if result == 0:
+		print("Something went wrong")
+
+
 
