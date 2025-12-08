@@ -15,7 +15,8 @@ def transform_weather(data):
 	print(f"Количество явных дубликатов: {data.duplicated().sum()} ")
 	data = data.dropna()
 	print(f"Количество Nan-значений: {data.isna().sum()} ")
-	return data
+	data.to_csv("transform_weather.csv")
+	return 0
 
 if __name__ == "__main__":
 	with open("../../data/raw_weather.json", "r") as f:

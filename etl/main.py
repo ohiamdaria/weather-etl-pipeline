@@ -1,6 +1,8 @@
 import os
+import json
 import pandas as pd
 from extract.extract_weather import extract_weather
+from transform.transform_weather import transform_weather
 from load.load_weather import load_weather
 
 from sqlalchemy import create_engine, text
@@ -14,6 +16,16 @@ if __name__ == '__main__':
   else:
     print("Something went wrong")
 
+  with open("../data/raw_weather.json", "r") as f:
+    raw_data = json.load(f)
+  data = pd.json_normalize(raw_data)
+  result_transform = transform_weather(data)
+
+  if result_transform == 1:
+    print("Transform completed OK")
+  else:
+    print("Something went wrong")
+
   data = pd.read_csv("transform/transform_weather.csv")
   connection_string = "postgresql+psycopg2://postgres@localhost:5432/weather_db"
   engine = create_engine(connection_string)
@@ -23,3 +35,4 @@ if __name__ == '__main__':
     print("Load completed OK")
   else:
     print("Something went wrong")
+

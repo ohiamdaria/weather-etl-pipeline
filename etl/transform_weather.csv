@@ -1,0 +1,5 @@
+,city,extracted_at,weather_description,main_temp,main_feels_like,main_pressure,wind_speed,sunrise,sunset
+0,Moscow,2025-12-09T00:32:12.105606,overcast clouds,-0.27,-4.82,1027,4.3,1765259202,1765285039
+1,Saint Petersburg,2025-12-09T00:32:12.385835,overcast clouds,0.59,-1.77,1010,2.0,1765262843,1765284927
+2,Novosibirsk,2025-12-09T00:32:14.221236,clear sky,-31.39,-38.39,1038,2.0,1765248050,1765274431
+3,Kazan,2025-12-09T00:32:14.736428,scattered clouds,-13.66,-20.09,1039,3.14,1765256452,1765282265

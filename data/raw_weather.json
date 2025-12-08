@@ -14,9 +14,9 @@
     ],
     "base": "stations",
     "main": {
-      "temp": 0.02,
-      "feels_like": -4.46,
-      "temp_min": -0.19,
+      "temp": -0.27,
+      "feels_like": -4.82,
+      "temp_min": -0.37,
       "temp_max": 0.29,
       "pressure": 1027,
       "humidity": 69,
@@ -32,7 +32,7 @@
     "clouds": {
       "all": 100
     },
-    "dt": 1765229137,
+    "dt": 1765229000,
     "sys": {
       "type": 2,
       "id": 2094500,
@@ -45,7 +45,7 @@
     "name": "Moscow",
     "cod": 200,
     "city": "Moscow",
-    "extracted_at": "2025-12-09T00:28:16.761157"
+    "extracted_at": "2025-12-09T00:32:12.105606"
   },
   {
     "coord": {
@@ -79,7 +79,7 @@
     "clouds": {
       "all": 100
     },
-    "dt": 1765229081,
+    "dt": 1765228988,
     "sys": {
       "type": 2,
       "id": 2045711,
@@ -92,7 +92,7 @@
     "name": "Saint Petersburg",
     "cod": 200,
     "city": "Saint Petersburg",
-    "extracted_at": "2025-12-09T00:28:16.886952"
+    "extracted_at": "2025-12-09T00:32:12.385835"
   },
   {
     "coord": {
@@ -126,7 +126,7 @@
     "clouds": {
       "all": 0
     },
-    "dt": 1765229260,
+    "dt": 1765229262,
     "sys": {
       "type": 1,
       "id": 8958,
@@ -139,7 +139,7 @@
     "name": "Novosibirsk",
     "cod": 200,
     "city": "Novosibirsk",
-    "extracted_at": "2025-12-09T00:28:17.010180"
+    "extracted_at": "2025-12-09T00:32:14.221236"
   },
   {
     "coord": {
@@ -174,7 +174,7 @@
     "clouds": {
       "all": 49
     },
-    "dt": 1765228460,
+    "dt": 1765229268,
     "sys": {
       "type": 1,
       "id": 9038,
@@ -187,6 +187,6 @@
     "name": "Kazan\u2019",
     "cod": 200,
     "city": "Kazan",
-    "extracted_at": "2025-12-09T00:28:17.131792"
+    "extracted_at": "2025-12-09T00:32:14.736428"
   }
 ]
